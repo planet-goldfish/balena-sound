@@ -56,7 +56,7 @@ services:
     labels:
       io.balena.features.dbus: 1
 
-   upnp:
+  upnp:
     build: ./plugins/upnp
     restart: on-failure
     network_mode: host
